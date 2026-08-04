@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087654ECFE3A418039C6044F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B49E6B726F097D726ACD6920 /* PrivacyInfo.xcprivacy */; };
+		0F85A08F3EEB13765D1DE1FD /* CreateGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767EA6BEF054972F6C572702 /* CreateGoalView.swift */; };
+		3253E9C18EEFABE6B8976410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E794B26D4548015658C04AAD /* Assets.xcassets */; };
+		43289C9139FEC582461150A0 /* GoalDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2002BE0C0C7F21AFFB6CF /* GoalDomainTests.swift */; };
+		7737BCC6DE9886C819C5FB02 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F76659835A7F5D1489F14 /* DashboardView.swift */; };
+		7C53F0ECA45454758AB9BAFC /* earned-commitment-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F356ABE7C7F08510252872F /* earned-commitment-logo.png */; };
+		82ACBC6A4D0B4CEC6AD78AA3 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB5F5FD3C9122F5B5129F3F /* GoalDetailView.swift */; };
+		8CC9A1EB28FC6CD4DEA8EBD8 /* PersistenceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C39D2145FF20F799DB19B1 /* PersistenceSupport.swift */; };
+		BF5C22788BE73E4B7A3FDF07 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A0F8302E7226BA0ACC9A0 /* HistoryView.swift */; };
+		D2DC84240E233EF60799815F /* EarnedCommitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA6E0A05F12D4F989C0F0C /* EarnedCommitmentApp.swift */; };
+		D4DD5F1D451E35485FC21A42 /* RecoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A95E973C63C7C761E12608 /* RecoveryView.swift */; };
+		E99F6FC49789A9CE43446D89 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1E3A3FF49D1A28CF77DD9 /* SettingsView.swift */; };
+		EF2D0C2DF608D46FC276FA5F /* GoalDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76AD2A8E25DE43A4AF2CB5 /* GoalDomain.swift */; };
+		F5A7025781051206E4D36E7A /* GoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B68B2761F996FEB0B01D /* GoalRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5DB5367E8CA683446676F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68C02F3A1B3BAE71BB649B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F74E7C4F86BF3DA5CD0577;
+			remoteInfo = EarnedCommitment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F356ABE7C7F08510252872F /* earned-commitment-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earned-commitment-logo.png"; sourceTree = "<group>"; };
+		1B76AD2A8E25DE43A4AF2CB5 /* GoalDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDomain.swift; sourceTree = "<group>"; };
+		248A0F8302E7226BA0ACC9A0 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		26590BF106190F7E2C0470F0 /* EarnedCommitmentTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EarnedCommitmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DE79D46E6091D8BDDCD24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A2F76659835A7F5D1489F14 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4FEA6E0A05F12D4F989C0F0C /* EarnedCommitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnedCommitmentApp.swift; sourceTree = "<group>"; };
+		5FF1E3A3FF49D1A28CF77DD9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		767EA6BEF054972F6C572702 /* CreateGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalView.swift; sourceTree = "<group>"; };
+		84C6B68B2761F996FEB0B01D /* GoalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRecord.swift; sourceTree = "<group>"; };
+		89A95E973C63C7C761E12608 /* RecoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryView.swift; sourceTree = "<group>"; };
+		8ED2002BE0C0C7F21AFFB6CF /* GoalDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDomainTests.swift; sourceTree = "<group>"; };
+		A6C39D2145FF20F799DB19B1 /* PersistenceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceSupport.swift; sourceTree = "<group>"; };
+		B49E6B726F097D726ACD6920 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BD87ACA8845ECB11C332C410 /* EarnedCommitment.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EarnedCommitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E794B26D4548015658C04AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB5F5FD3C9122F5B5129F3F /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D87E127B6D4BC99BE1D39D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD87ACA8845ECB11C332C410 /* EarnedCommitment.app */,
+				26590BF106190F7E2C0470F0 /* EarnedCommitmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA7C127AB1630A2A5B36DCA /* GoalCreation */ = {
+			isa = PBXGroup;
+			children = (
+				767EA6BEF054972F6C572702 /* CreateGoalView.swift */,
+			);
+			path = GoalCreation;
+			sourceTree = "<group>";
+		};
+		2817AE155598E43A2C639F66 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F76659835A7F5D1489F14 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3C0355CEE507E3B1E4B8849E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2002BE0C0C7F21AFFB6CF /* GoalDomainTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3EF495527BDADB9245678527 = {
+			isa = PBXGroup;
+			children = (
+				7BD70A32C780EFA5B7C9195E /* App */,
+				3C0355CEE507E3B1E4B8849E /* Tests */,
+				0D87E127B6D4BC99BE1D39D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508E96866507A6CDAA0C945A /* GoalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5F5FD3C9122F5B5129F3F /* GoalDetailView.swift */,
+			);
+			path = GoalDetail;
+			sourceTree = "<group>";
+		};
+		597C78DD5CDC0C574FED3A7B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1B76AD2A8E25DE43A4AF2CB5 /* GoalDomain.swift */,
+				84C6B68B2761F996FEB0B01D /* GoalRecord.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		72362804600189FD524FA042 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2817AE155598E43A2C639F66 /* Dashboard */,
+				0EA7C127AB1630A2A5B36DCA /* GoalCreation */,
+				508E96866507A6CDAA0C945A /* GoalDetail */,
+				A91388C2F82A67C8D235BA4B /* History */,
+				9428982DC0E98343767BE5AA /* Recovery */,
+				B099A5152C9507DDEA928275 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7BD70A32C780EFA5B7C9195E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA6E0A05F12D4F989C0F0C /* EarnedCommitmentApp.swift */,
+				597C78DD5CDC0C574FED3A7B /* Domain */,
+				72362804600189FD524FA042 /* Features */,
+				BF9442C50DF401D79C75C9B3 /* Persistence */,
+				F019D480DBD988EC7C07DEED /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9428982DC0E98343767BE5AA /* Recovery */ = {
+			isa = PBXGroup;
+			children = (
+				89A95E973C63C7C761E12608 /* RecoveryView.swift */,
+			);
+			path = Recovery;
+			sourceTree = "<group>";
+		};
+		A91388C2F82A67C8D235BA4B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				248A0F8302E7226BA0ACC9A0 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		B099A5152C9507DDEA928275 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5FF1E3A3FF49D1A28CF77DD9 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BF9442C50DF401D79C75C9B3 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A6C39D2145FF20F799DB19B1 /* PersistenceSupport.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F019D480DBD988EC7C07DEED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E794B26D4548015658C04AAD /* Assets.xcassets */,
+				0F356ABE7C7F08510252872F /* earned-commitment-logo.png */,
+				36DE79D46E6091D8BDDCD24F /* Info.plist */,
+				B49E6B726F097D726ACD6920 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F74E7C4F86BF3DA5CD0577 /* EarnedCommitment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64297E316CF4551D44609A5 /* Build configuration list for PBXNativeTarget "EarnedCommitment" */;
+			buildPhases = (
+				B9CA92CA612FD11BEA57CAAC /* Sources */,
+				7C03F869564A6E37A1CC3377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarnedCommitment;
+			packageProductDependencies = (
+			);
+			productName = EarnedCommitment;
+			productReference = BD87ACA8845ECB11C332C410 /* EarnedCommitment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C75A39EEDBA6EF0957D5467 /* EarnedCommitmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C286B9217871B4CF2A9DB239 /* Build configuration list for PBXNativeTarget "EarnedCommitmentTests" */;
+			buildPhases = (
+				293CB0876FBF7642A9A2C2EA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53A82D6BC4608CF83134E550 /* PBXTargetDependency */,
+			);
+			name = EarnedCommitmentTests;
+			packageProductDependencies = (
+			);
+			productName = EarnedCommitmentTests;
+			productReference = 26590BF106190F7E2C0470F0 /* EarnedCommitmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C02F3A1B3BAE71BB649B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26F74E7C4F86BF3DA5CD0577 = {
+						DevelopmentTeam = "";
+					};
+					6C75A39EEDBA6EF0957D5467 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = EF97C2F544C9855DD9292F9C /* Build configuration list for PBXProject "EarnedCommitment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3EF495527BDADB9245678527;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0D87E127B6D4BC99BE1D39D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F74E7C4F86BF3DA5CD0577 /* EarnedCommitment */,
+				6C75A39EEDBA6EF0957D5467 /* EarnedCommitmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C03F869564A6E37A1CC3377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253E9C18EEFABE6B8976410 /* Assets.xcassets in Resources */,
+				087654ECFE3A418039C6044F /* PrivacyInfo.xcprivacy in Resources */,
+				7C53F0ECA45454758AB9BAFC /* earned-commitment-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293CB0876FBF7642A9A2C2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43289C9139FEC582461150A0 /* GoalDomainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CA92CA612FD11BEA57CAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F85A08F3EEB13765D1DE1FD /* CreateGoalView.swift in Sources */,
+				7737BCC6DE9886C819C5FB02 /* DashboardView.swift in Sources */,
+				D2DC84240E233EF60799815F /* EarnedCommitmentApp.swift in Sources */,
+				82ACBC6A4D0B4CEC6AD78AA3 /* GoalDetailView.swift in Sources */,
+				EF2D0C2DF608D46FC276FA5F /* GoalDomain.swift in Sources */,
+				F5A7025781051206E4D36E7A /* GoalRecord.swift in Sources */,
+				BF5C22788BE73E4B7A3FDF07 /* HistoryView.swift in Sources */,
+				8CC9A1EB28FC6CD4DEA8EBD8 /* PersistenceSupport.swift in Sources */,
+				D4DD5F1D451E35485FC21A42 /* RecoveryView.swift in Sources */,
+				E99F6FC49789A9CE43446D89 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53A82D6BC4608CF83134E550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F74E7C4F86BF3DA5CD0577 /* EarnedCommitment */;
+			targetProxy = C5DB5367E8CA683446676F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26BBE39AF9BBCCBA60E9EF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		32FE0FFD03D7159C00E694FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		39055B918573B33238FAA76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Earned Commitment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satviktalchuru.earnedcommitment;
+				PRODUCT_NAME = EarnedCommitment;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C5ECB0228EED0816096471E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satviktalchuru.earnedcommitment.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarnedCommitment.app/EarnedCommitment";
+			};
+			name = Release;
+		};
+		80B82D2075BE8AA7AA22C15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Earned Commitment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satviktalchuru.earnedcommitment;
+				PRODUCT_NAME = EarnedCommitment;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0930AD30A77698A0F9F8CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satviktalchuru.earnedcommitment.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarnedCommitment.app/EarnedCommitment";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64297E316CF4551D44609A5 /* Build configuration list for PBXNativeTarget "EarnedCommitment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39055B918573B33238FAA76F /* Debug */,
+				80B82D2075BE8AA7AA22C15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C286B9217871B4CF2A9DB239 /* Build configuration list for PBXNativeTarget "EarnedCommitmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0930AD30A77698A0F9F8CEE /* Debug */,
+				5C5ECB0228EED0816096471E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF97C2F544C9855DD9292F9C /* Build configuration list for PBXProject "EarnedCommitment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FE0FFD03D7159C00E694FD /* Debug */,
+				26BBE39AF9BBCCBA60E9EF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C02F3A1B3BAE71BB649B7E /* Project object */;
+}

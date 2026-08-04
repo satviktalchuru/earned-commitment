@@ -1,0 +1,8 @@
+.DS_Store
+Handoff/
+Legacy/
+Web/
+DerivedData/
+AppStoreConnectScreenshots/
+*.xcuserstate
+*.xcscmblueprint

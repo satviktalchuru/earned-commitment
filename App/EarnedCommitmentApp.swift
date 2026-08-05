@@ -118,11 +118,9 @@ struct AppShellView: View {
             await NotificationManager.schedule(for: goal)
             if goal.status == .recovering { await NotificationManager.scheduleRecovery(for: goal) }
         }
-        if let evaluation {
-            for goalID in evaluation.missedGoalIDs {
-                if let goal = goals.first(where: { $0.identifier == goalID }) {
-                    await NotificationManager.scheduleMissed(for: goal)
-                }
+        for goalID in evaluation.missedGoalIDs {
+            if let goal = goals.first(where: { $0.identifier == goalID }) {
+                await NotificationManager.scheduleMissed(for: goal)
             }
         }
     }

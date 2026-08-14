@@ -9,7 +9,7 @@ settings:
     SWIFT_STRICT_CONCURRENCY: complete
     DEVELOPMENT_TEAM: ""
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    CURRENT_PROJECT_VERSION: "2"
 targets:
   EarnedCommitment:
     type: application
@@ -25,9 +25,9 @@ targets:
         PRODUCT_NAME: EarnedCommitment
         INFOPLIST_FILE: App/Resources/Info.plist
         MARKETING_VERSION: "1.0"
-        CURRENT_PROJECT_VERSION: "1"
+        CURRENT_PROJECT_VERSION: "2"
         INFOPLIST_KEY_CFBundleShortVersionString: "1.0"
-        INFOPLIST_KEY_CFBundleVersion: "1"
+        INFOPLIST_KEY_CFBundleVersion: "2"
     scheme:
       testTargets:
         - EarnedCommitmentTests

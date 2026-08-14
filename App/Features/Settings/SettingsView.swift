@@ -84,75 +84,40 @@ struct PrivacyPolicyView: View {
     }
 }
 
-struct ResearchEntry: Identifiable {
-    let id = UUID()
-    let theory: String
-    let summary: String
-    let application: String
-    let citation: String
-    let url: URL
-}
-
 struct ResearchView: View {
-    private let entries: [ResearchEntry] = [
-        ResearchEntry(
-            theory: "Autonomy and intrinsic motivation",
-            summary: "People are more likely to sustain behavior when they experience choice, competence, and ownership.",
-            application: "You choose the promise, confirm it yourself, and receive recovery work instead of surveillance or public shame.",
-            citation: "Ryan & Deci, 2000",
-            url: URL(string: "https://doi.org/10.1037/0003-066X.55.1.68")!
-        ),
-        ResearchEntry(
-            theory: "Commitment devices",
-            summary: "Precommitting before temptation arrives can help people follow through on intentions they already value.",
-            application: "A deadline and a known capacity consequence make the commitment concrete before the difficult moment arrives.",
-            citation: "Ariely & Wertenbroch, 2002",
-            url: URL(string: "https://doi.org/10.1111/1467-9280.00441")!
-        ),
-        ResearchEntry(
-            theory: "Implementation intentions",
-            summary: "Specific plans connect a future situation with an intended action, reducing the gap between wanting and doing.",
-            application: "The app asks for one clear promise and a precise deadline instead of a vague intention.",
-            citation: "Gollwitzer, 1999",
-            url: URL(string: "https://doi.org/10.1037/0003-066X.54.7.493")!
-        ),
-        ResearchEntry(
-            theory: "Specific goal setting",
-            summary: "Clear, specific goals provide a stronger target for attention and effort than general goals.",
-            application: "The commitment flow starts with a concrete finish line and shows the consequence before you agree.",
-            citation: "Locke & Latham, 2002",
-            url: URL(string: "https://doi.org/10.1037/0003-066X.57.9.705")!
-        ),
-        ResearchEntry(
-            theory: "Self-efficacy and mastery",
-            summary: "Confidence grows through manageable experiences of taking action and succeeding at the next step.",
-            application: "Recovery breaks a miss into small confirmations so progress can be rebuilt without pretending the miss did not happen.",
-            citation: "Bandura, 1977",
-            url: URL(string: "https://doi.org/10.1037/0033-295X.84.2.191")!
-        )
+    private let cards = [
+        ("Choice builds ownership", "I learned that intrinsic motivation is stronger when people choose their own direction and can see their progress. My interpretation is that the app should let you define the commitment and confirm it yourself, rather than rely on surveillance."),
+        ("A commitment changes the decision", "My economics coursework helped me see deadlines as a simple commitment device: deciding in advance can protect a future intention from a present impulse. The app makes the finish line and capacity consequence visible before you agree."),
+        ("Specific plans reduce friction", "I learned that a clear action is easier to follow than a broad intention. My interpretation is that one concrete promise, paired with a precise deadline, gives attention a practical target."),
+        ("Recovery should rebuild capability", "My interpretation of mastery and self-efficacy is that a miss should be acknowledged without making progress feel impossible. Small recovery commitments let you earn capacity back through consistent action.")
     ]
 
     var body: some View {
-        List {
-            Section {
-                Text("Earned Commitment uses behavioral science as a design input, not as a promise that any technique works for everyone.")
+        ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                Text("What I learned")
+                    .font(.title2.weight(.bold))
+                Text("These four summaries are my own interpretations of ideas I encountered in economics classes at UCSB. They are design input for Earned Commitment, not medical advice or a guarantee that any approach works for everyone.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
-                    .listRowBackground(Color.clear)
-            }
-            ForEach(entries) { entry in
-                Section(entry.theory) {
-                    Text(entry.summary)
-                        .font(.body)
-                    Text(entry.application)
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                    Link("Read \(entry.citation)", destination: entry.url)
-                        .font(.footnote.weight(.semibold))
+
+                ForEach(cards, id: \.0) { title, summary in
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text(title)
+                            .font(.headline)
+                        Text(summary)
+                            .font(.body)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(16)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color(.secondarySystemBackground))
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
                 }
             }
+            .padding(20)
         }
-        .navigationTitle("Behavior research")
+        .navigationTitle("What I learned")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

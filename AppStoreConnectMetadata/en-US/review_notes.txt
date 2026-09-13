@@ -1,5 +1,0 @@
-Earned Commitment does not require an account. All goal and history data is stored locally on the test device.
-
-On first launch, follow the brief guide, create a commitment, and use the self-confirmation flow. Notifications are optional. Export and deletion are available from History. The Settings screen contains the in-app privacy policy and online privacy policy.
-
-To test a missed deadline, create a goal with a near-term deadline and relaunch after it expires. The app evaluates deadlines on launch and when returning to the foreground. Recovery is available from the resulting missed state.

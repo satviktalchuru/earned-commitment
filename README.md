@@ -19,3 +19,15 @@ The `Handoff/Earned Commitment` directory is a self-contained handoff copy for t
 ```
 
 The old `GoalPenalty.xcodeproj` files are legacy generated artifacts. Do not use them for new builds.
+
+## Demo
+
+The current prototype flow:
+
+| Onboarding | Today dashboard | New commitment |
+| --- | --- | --- |
+| ![Onboarding](Docs/Screenshots/onboarding.png) | ![Today dashboard](Docs/Screenshots/dashboard.png) | ![New commitment](Docs/Screenshots/new-commitment.png) |
+
+| Privacy | Recovery |
+| --- | --- |
+| ![Privacy policy](Docs/Screenshots/privacy.png) | ![Recovery](Docs/Screenshots/recovery.png) |
